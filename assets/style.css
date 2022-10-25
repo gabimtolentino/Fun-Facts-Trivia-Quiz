@@ -24,21 +24,13 @@ header h1 {
     color:darkgoldenrod 
 }
 
-  .start-button {
-    font-size: 4px;
-    height: 20px;
-    text-align:center;
-  }
-
   .start.button {
     background: olive;
     color: black;
     cursor: pointer;
-    font-size: 2px;
-    letter-spacing: 0.21px;
-    line-height: 16px;
-    max-width: 255px;
-    padding: 20px 52px;
+    font-size: 40px;
+    height: 40px;
+    padding: 20px;
     text-align: center;
     transition-duration: 0.15s;
     transition-property: background-color;
