@@ -9,10 +9,39 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    background-color: antiquewhite;
+    background-color: cornsilk
   }
 
-  .start-quiz {
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    display: flex;
+    text-align: center;
+    padding: 60px;
+    background-color: darkkhaki;
+    color:darkgoldenrod 
+}
+
+  .start-button {
     font-size: 4px;
+    height: 20px;
     text-align:center;
+  }
+
+  .start.button {
+    background: olive;
+    color: black;
+    cursor: pointer;
+    font-size: 2px;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 3px;
   }
